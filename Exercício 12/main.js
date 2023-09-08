@@ -16,11 +16,11 @@ button.addEventListener('click', () => {
     else if(código == 102 )
         h2.innerHTML = `O preço de ${quantidade} Bauru com ovo é R$ ${preço102} `
     else if(código == 101 )
-         h2.innerHTML = `O preço de ${quantidade} Bauru simples é R$ ${preço101e104} `
+        h2.innerHTML = `O preço de ${quantidade} Bauru simples é R$ ${preço101e104} `
     else  if(código == 104 )
-         h2.innerHTML = `O preço de ${quantidade} Cheeseburguer é R$ ${preço101e104} `
+        h2.innerHTML = `O preço de ${quantidade} Cheeseburguer é R$ ${preço101e104} `
     else  if(código == 105 )
-         h2.innerHTML = `O preço de ${quantidade} Refrigerante(s) é R$ ${preço105} `
+        h2.innerHTML = `O preço de ${quantidade} Refrigerante(s) é R$ ${preço105} `
     else
         h2.innerHTML = `Digite os códigos do cardápio `
     
