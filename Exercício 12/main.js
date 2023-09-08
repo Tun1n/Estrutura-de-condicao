@@ -13,13 +13,13 @@ button.addEventListener('click', () => {
         h2.innerHTML = `O preço de ${quantidade} cachorro(s) quente(s) é R$ ${preço100e103} `
     else if (código == 103)
         h2.innerHTML = `O preço de ${quantidade} hambúrguer(s) é R$ ${preço100e103} `
-    else if(saldomedio >= 102 )
+    else if(código == 102 )
         h2.innerHTML = `O preço de ${quantidade} Bauru com ovo é R$ ${preço102} `
-    else if(saldomedio >= 101 )
+    else if(código == 101 )
          h2.innerHTML = `O preço de ${quantidade} Bauru simples é R$ ${preço101e104} `
-    else  if(saldomedio >= 104 )
+    else  if(código == 104 )
          h2.innerHTML = `O preço de ${quantidade} Cheeseburguer é R$ ${preço101e104} `
-    else  if(saldomedio >= 105 )
+    else  if(código == 105 )
          h2.innerHTML = `O preço de ${quantidade} Refrigerante(s) é R$ ${preço105} `
     else
         h2.innerHTML = `Digite os códigos do cardápio `
